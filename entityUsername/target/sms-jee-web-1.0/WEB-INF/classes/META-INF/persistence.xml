@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+    http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd" version="2.2" >
+
+    <persistence-unit name="PersonPU" transaction-type="JTA">
+        <jta-data-source>jdbc/DbPerson</jta-data-source>
+        <!-- In the view domain admin console of the server 
+        I created a pool of connections (PoolPerson) and jdbc resources using the name jdbc/DbPerson in order to have the necessary connection between the server and MySql-->
+    </persistence-unit>
+</persistence>
+
+    
+    

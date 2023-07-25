@@ -1,0 +1,7 @@
+ar\com\mp\sms\domain\User.class
+ar\com\mp\sms\data\DaoPersonImp.class
+ar\com\mp\sms\web\ServletPerson.class
+ar\com\mp\sms\service\PersonServiceImp.class
+ar\com\mp\sms\data\DaoPerson.class
+ar\com\mp\sms\service\ServicePerson.class
+ar\com\mp\sms\domain\Person.class
